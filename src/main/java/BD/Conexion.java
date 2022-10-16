@@ -10,7 +10,7 @@ public class Conexion {
     public Statement crearConexion(){
         Statement statement = null;
         try{
-            conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "55829536");
+            conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "1234");
             statement = conexion.createStatement();
             System.out.println("Base de datos conectada con éxitos");
         }catch(Exception e){
